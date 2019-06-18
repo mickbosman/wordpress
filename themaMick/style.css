@@ -1,0 +1,51 @@
+/*
+Theme Name: Thema van Mick
+Author: Mick Bosman
+Author URI : http://27074.hosts2.ma-cloud.nl/
+Version 1.0
+
+*/
+
+body {
+  font-family: sans-serif;
+  color: #333;
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+a {
+  color: dordgerblue;
+}
+
+.bericht {
+  border-bottom: 6px double royalblue;
+}
+.bericht:last-of-type {
+  border-bottom: 0;
+}
+
+.container {
+  padding: 2em;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header {
+  background: royalblue;
+  color: #fff;
+  background-size: cover;
+  background-position: center center;
+  min-height: 50vw;
+}
+
+header a {
+  color: #fff;
+}
+
+footer {
+  background: royalblue;
+  color: #fff;
+}
